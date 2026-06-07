@@ -10,3 +10,4 @@ print('Começa o loop')
 while True:
     #checar eventos
     for event in pygame.event.get():
+        if event.type == pygame.QUIT:
