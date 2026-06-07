@@ -8,4 +8,5 @@ print('Configurações finais')
 
 print('Começa o loop')
 while True:
-    pass
+    #checar eventos
+    for event in pygame.event.get():
